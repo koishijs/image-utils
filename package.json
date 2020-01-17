@@ -1,0 +1,44 @@
+{
+  "name": "koishi-image-utils",
+  "description": "Image Utilities for Koishi",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint src --ext .ts",
+    "prepack": "tsc -b"
+  },
+  "license": "MIT",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/image-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/image-utils/issues"
+  },
+  "homepage": "https://github.com/koishijs/image-utils#readme",
+  "keywords": [
+    "bot",
+    "qqbot",
+    "cqhttp",
+    "coolq",
+    "chatbot",
+    "koishi",
+    "utilities",
+    "image",
+    "sharp",
+    "svg"
+  ],
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "@types/sharp": "^0.23.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "sharp": "^0.24.0"
+  }
+}
